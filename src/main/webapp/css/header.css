@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header a {
+	margin: 2px;
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-size:20px;	
+}
+
+header a:hover{
+	color:grey;
+}
+
+ .title {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size:60px;
+	margin:0 auto;
+	/* 메인홈페이지 100펀딩 센터 맞춤 코드 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
