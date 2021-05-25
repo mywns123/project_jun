@@ -5,9 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>로그인 화면</title>
-<link rel="stylesheet" href="/web_funding_prj/css/login.css">
-<link rel="stylesheet" href="/web_funding_prj/css/header.css">
-<link rel="stylesheet" href="/web_funding_prj/css/footer.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/login.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
 </head>
 <body>
 	<div class="container">
@@ -31,14 +30,11 @@
 				<input type="submit" value="로그인" id="login"/>
 			</fieldset>
 			<fieldset id="aBtn">
-				<p>아직 계정이 없으신가요??<a href="/web_funding_prj/login/signUp.jsp">회원가입하기</a></p>
+				<p>아직 계정이 없으신가요??<a href="<%=request.getContextPath()%>/signUp.jsp">회원가입하기</a></p>
 				<p><a href="#">아이디/비밀번호를 잊으셨나요??</a>
 			</fieldset>	
 			</form>	
-		</section>
-		<footer>
-			<jsp:include page="/WEB-INF/view/include/footer.jsp"/>
-		</footer>
+		</section>		
 	</div>
 </body>
 </html>

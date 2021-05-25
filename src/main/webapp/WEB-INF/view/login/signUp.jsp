@@ -7,7 +7,6 @@
 <title>회원가입</title>
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/signUp.css">
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/footer.css">
 </head>
 <body>
 	<div class="container">
@@ -51,10 +50,7 @@
 				<input type="submit" value="가입하기" id="submit">			
 				</fieldset>
 			</form>
-		</section>
-		<footer>
-			<jsp:include page="/WEB-INF/view/include/footer.jsp"/>
-		</footer>
+		</section>		
 	</div>
 </body>
 </html>
