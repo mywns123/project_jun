@@ -1,18 +1,5 @@
-select * from board;
-select * from BoardCategor;
-
-insert into boardcategor values (1, "공지사항");
-insert into boardcategor values (2, "이벤트");
-insert into boardcategor values (3, "보도자료");
-
-update boardcategor set caregoryName  = "진행중이벤트" where caregoryNo = 2;
-
-delete from boardcategor where caregoryNo  = 3;
-
-
-insert into board(BoardNo, caregoryNo, BoardTItle, BoardContent, BoardDate) values (1, 1, "이용수칙", "~~~~", "2021-01-01");
-update board set caregoryNo = 2, BoardTItle = "여름이벤트", BoardContent ="!!!!!", BoardDate = "2020-06-01" where BoardNo = 1;
-delete from board where BoardNo = 1;
-
-
+select * from project;
+select * from userinfo ;
+insert into userinfo(UserNo, UserId, UserPw, UserName, Address, DetailAddress, UserPhone, Email) values (1, 1, 1, '김경연', '대구','북구','010-6510-7277','kymonk@naver.com');
+insert into project  values (1, 1, '프로젝트', '프로젝트', 200, now(), '2021-06-06', '2021-06-06',0);
 

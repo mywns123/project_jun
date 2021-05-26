@@ -6,9 +6,10 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @Import({ContextDataSource.class, ContextSqlSession.class, MvcConfig.class})
-@ComponentScan(basePackages = {"project_jun.mapper",
-								"project_jun.controller",
-								"project_jun.service"})
+@ComponentScan(basePackages = {
+		"project_jun.mapper",
+		"project_jun.controller",
+		"project_jun.service"})
 public class ContextRoot {
 
 }

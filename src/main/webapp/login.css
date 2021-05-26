@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.container{
+	margin:0 auto;
+	width:80%;	
+}
+
+
+#loginFormArea{
+	/*정 가운데 배치 */
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	font-size: 16px;
+}
+
+#loginBtn{		
+	font-size: 20px;
+	margin-top: 10px;
+	}
+
+#login{	width: 100%;}
+
+#aBtn{
+	text-align: center;
+	border: none;
+	}
