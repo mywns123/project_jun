@@ -1,10 +1,11 @@
 package project_jun.dto;
 
 public class LoginCommand {
-	private String userId;
-	private String userPw;
-	private boolean rememberUserId;
+	private String userId;  	   //회원계정
+	private String userPw;		   //비밀번호
+	private boolean rememberUserId;//계정기억하기
 
+	// getter & setter
 	public String getUserId() {
 		return userId;
 	}

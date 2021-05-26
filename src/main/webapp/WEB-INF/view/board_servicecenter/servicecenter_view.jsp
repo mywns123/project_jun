@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>고객센터</title>
-<link rel="stylesheet" href="/web_funding_prj/css/servicecenter_view.css">
-<link rel="stylesheet" href="/web_funding_prj/css/header.css">
-<link rel="stylesheet" href="/web_funding_prj/css/footer.css">
+<link rel="stylesheet" href="/project_jun/css/servicecenter_view.css">
+<link rel="stylesheet" href="/project_jun/css/header.css">
+<link rel="stylesheet" href="/project_jun/css/footer.css">
 </head>
 <body>
 	<div class="container">
@@ -46,7 +46,7 @@
 	</table>
 	<!-- 페이지 구성 자체는 동일하게 만들면 될 듯. 클릭시 내 질문 내역과 답변 내역 한 눈에 볼 수 있게. -->
 	<p>궁금함을 해결하지 못하셨나요?</p>
-	<p><a href="/web_funding_prj/board_servicecenter/servicecenter_write">
+	<p><a href="/project_jun/board_servicecenter/servicecenter_write">
 	<button>1:1 문의하기</button></a>
 	</p>
 		<footer>

@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>문의하기 | 고객센터</title>
-<link rel="stylesheet" href="/web_funding_prj/css/servicecenter_write.css">
-<link rel="stylesheet" href="/web_funding_prj/css/header.css">
-<link rel="stylesheet" href="/web_funding_prj/css/footer.css">
+<link rel="stylesheet" href="/project_jun/css/servicecenter_write.css">
+<link rel="stylesheet" href="/project_jun/css/header.css">
+<link rel="stylesheet" href="/project_jun/css/footer.css">
 </head>
 <body>
 	<div class="container">

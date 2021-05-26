@@ -11,10 +11,10 @@
 			<div class = "footer_menu">
 				<a href = "">공지사항</a>
 				<a href = "">이용약관</a>
-				<a href = "/web_funding_prj/board_servicecenter/servicecenter_view">고객센터</a>
+				<a href = "/project_jun/board_servicecenter/servicecenter_view">고객센터</a>
 			</div>
 			<div class= "footer_question">
-				<a href = "/web_funding_prj/board_servicecenter/servicecenter_write">문의하기</a>
+				<a href = "/project_jun/board_servicecenter/servicecenter_write">문의하기</a>
 			</div>			
 			<div class ="footer_info">
 				<p>100펀딩은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 

@@ -6,8 +6,8 @@
 <head>
 <meta charset="UTF-8">
 <title>로그인 화면</title>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/login.css">
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
+<link rel="stylesheet" href="project_jun/css/login.css">
+<link rel="stylesheet" href="project_jun/css/header.css">
 </head>
 <body>
 	<div class="container">
@@ -31,7 +31,7 @@
 				<input type="submit" value="로그인" id="login"/>
 			</fieldset>
 			<fieldset id="aBtn">
-				<p>아직 계정이 없으신가요??<a href="<%=request.getContextPath()%>/login/signUp">회원가입하기</a></p>
+				<p>아직 계정이 없으신가요??<a href="project_jun/login/signUp">회원가입하기</a></p>
 				<p><a href="#">아이디/비밀번호를 잊으셨나요??</a>
 			</fieldset>	
 			</form:form>	

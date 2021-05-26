@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>회원가입</title>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/signUp.css">
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
+<link rel="stylesheet" href="project_jun/css/signUp.css">
+<link rel="stylesheet" href="project_jun/css/header.css">
 </head>
 <body>
 	<div class="container">
