@@ -1,6 +1,6 @@
 package project_jun.dto;
 
-public class loginCommand {
+public class LoginCommand {
 	private String userId;
 	private String userPw;
 	private boolean rememberUserId;
