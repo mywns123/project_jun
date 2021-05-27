@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import project_jun.dto.AuthInfo;
 import project_jun.dto.LoginCommand;
 import project_jun.exception.WrongIdPasswordException;
+import project_jun.service.AuthService;
 import project_jun.validator.LoginCommandValidator;
 
 
@@ -40,7 +42,7 @@ public class LoginController {
 			return "/login/loginForm";
 
 		try {
-			AuthInfo authInfo = authService.authenicate(loginCommand.getUserId(), loginCommand.getPassword());
+			AuthInfo authInfo = authService.authenicate(loginCommand.getUserId(), loginCommand.getUserPw());
 			session.setAttribute("authInfo", authInfo);
 			
 			Cookie rememberCookie = new Cookie("REMEMBER", loginCommand.getUserId());
