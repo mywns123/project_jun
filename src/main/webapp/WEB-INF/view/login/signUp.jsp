@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>회원가입</title>
-<link rel="stylesheet" href="project_jun/css/signUp.css">
-<link rel="stylesheet" href="project_jun/css/header.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/signUp.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
 </head>
 <body>
 	<div class="container">
@@ -39,13 +39,25 @@
 						<td class="td_right"><input type="text" name="address" id="address" required /></td>
 					</tr>
 					<tr>
+						<td class="td_left"><label for="detailAddress">상세주소</label></td>
+						<td class="td_right"><input type="text" name="detailAddress" id="detailAddress" /></td>
+					</tr>
+					<tr>
 						<td class="td_left"><label for="userPhone">회원H.P</label></td>
-						<td class="td_right"><input type="text" name="userPhone" id="userPhone" required /></td>
+						<td class="td_right"><input type="text" name="userPhone" id="userPhone" /></td>
 					</tr>
 					<tr>
 						<td class="td_left"><label for="email">이메일</label></td>
-						<td class="td_right"><input type="text" name="email" id="email" required /></td>
-					</tr>				
+						<td class="td_right"><input type="text" name="email" id="email" /></td>
+					</tr>	
+					<tr>
+						<td class="td_left"><label for="bankAccount">계좌번호</label></td>
+						<td class="td_right"><input type="text" name="bankAccount" id="bankAccount" /></td>
+					</tr>
+					<tr>
+						<td class="td_left"><label for="bankName">은행명</label></td>
+						<td class="td_right"><input type="text" name="bankName" id="bankName" /></td>
+					</tr>			
 				</table>			
 				<input type="submit" value="가입하기" id="submit">			
 				</fieldset>

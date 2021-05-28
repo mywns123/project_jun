@@ -25,8 +25,8 @@
 					<tr>
 						<td class="td_left"><label for="passwd">비밀번호:</label></td>
 						<td class="td_right"><input type="password" name="passwd" id="passwd"></td>
-					</tr>		
-				</table>
+					</tr>						
+				</table>				
 				<input type="submit" value="로그인" id="login"/>
 			</fieldset>
 			<fieldset id="aBtn">

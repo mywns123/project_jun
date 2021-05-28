@@ -6,8 +6,8 @@
 <head>
 <meta charset="UTF-8">
 <title>로그인 화면</title>
-<link rel="stylesheet" href="project_jun/css/login.css">
-<link rel="stylesheet" href="project_jun/css/header.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/login.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
 </head>
 <body>
 	<div class="container">
