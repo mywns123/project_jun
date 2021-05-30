@@ -40,7 +40,18 @@ DROP SCHEMA IF EXISTS proj21_funding;
 -- proj21_funding
 CREATE SCHEMA proj21_funding;
 
+create database ss;
 -- 회원정보
+CREATE table student(
+	UserNo        CHAR(10)     NOT NULL COMMENT '회원번호' -- 회원번호
+);
+
+select * from student;
+
+insert into student values("한");
+
+
+
 CREATE TABLE proj21_funding.UserInfo (
 	UserNo        CHAR(10)     NOT NULL COMMENT '회원번호', -- 회원번호
 	UserId        VARCHAR(10)  NOT NULL COMMENT '회원계정', -- 회원계정

@@ -16,9 +16,6 @@
 				"type": "dev",
 				"auth-model": "native",
 				"handlers": {}
-			},
-			"custom-properties": {
-				"database.meta.separate.connection": "false"
 			}
 		}
 	},

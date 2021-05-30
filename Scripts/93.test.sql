@@ -15,4 +15,26 @@ update board set caregoryNo = 2, BoardTItle = "여름이벤트", BoardContent ="
 delete from board where BoardNo = 1;
 
 
+select 
+	UserNo, UserId, UserPw, UserName,
+	Address, DetailAddress, UserPhone, Email,
+	BankAcoount, BankName
+from userinfo;
+
+where UserNo =?;
+where UserId =?;
+where UserName =?;
+
+insert into userinfo values(
+00001, 'test', '0000', '김상건', '대구', '달서구',
+'010-3302-1972', 'test@test.com', 00000001, '국민'
+);
+
+update userinfo
+set UserId = ?, UserPw = ?, UserName = ?,
+	Address = ?, DetailAddress = ?, UserPhone = ?, Email = ?,
+	BankAcoount = ?, BankName = ?
+where UserNo =?;
+
+delete from userinfo where UserNo = ?;
 
