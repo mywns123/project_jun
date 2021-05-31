@@ -15,3 +15,4 @@ select UserNo, UserId, UserPw, UserName, Address,
 		  from userinfo	;
 		  
 update userinfo set UserPhone = "010", Email="test@test", BankName = "qq" where username= '김경연';
+delete from userinfo where userNo >3;

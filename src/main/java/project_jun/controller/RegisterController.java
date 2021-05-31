@@ -4,7 +4,6 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,7 +43,7 @@ public class RegisterController {
 			service.regist(request);
 			return "login/signUp2";
 		} catch (DuplicateUserException e) {
-			errors.rejectValue("id", "duplicate");
+			errors.rejectValue("userId", "duplicate");
 			return "login/signUp1";
 		}
 	}
