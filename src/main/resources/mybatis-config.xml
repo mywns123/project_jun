@@ -8,7 +8,7 @@
 	</settings>
 
 	<typeAliases>
-		<package name="project_jun.controller" />
+		<package name="project_jun.dto" />
 	</typeAliases>
 
 	<!-- <typeHandlers> <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" 

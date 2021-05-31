@@ -6,23 +6,21 @@ import org.springframework.stereotype.Component;
 
 import project_jun.dto.UserInfo;
 
-
 @Component
 public interface UserInfoMapper {
 
-	List<UserInfo> selectMemberByAll();
-	
-	UserInfo selectMemberByEmail(String email);
-	
-	UserInfo selectbyId(long memId);
-	
-	int countMember();
-	
-	int insertMember(UserInfo member);
-	
-	int updateMember(UserInfo member);
-	
-	int deleteMember(UserInfo member);
-	
-//	List<UserInfo> selectByRegdate(ListCommand listCommand);
+	List<UserInfo> selectUserAll();
+
+	UserInfo selectUserbyNo(int userNo);
+
+	UserInfo selectUserbyId(String userId);
+
+	UserInfo selectUserbyEmail(String email);
+
+	int insertMember(UserInfo userInfo);
+
+	int updateMember(UserInfo userInfo);
+
+	int deleteMember(int userNo);
+
 }

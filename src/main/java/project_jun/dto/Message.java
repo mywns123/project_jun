@@ -4,22 +4,23 @@ import java.util.Date;
 
 //메세지
 public class Message {
-	private String msgNo;	   //메세지번호
-	private String sendUser;   //발신자
-	private String receiveUser;//수신자
-	private String msgContent; //내용
-	private Date sendDate;	   //발신일
-	private boolean readYN;	   //확인여부
+	private int msgNo; // 메세지번호
+	private String sendUser; // 발신자
+	private String receiveUser;// 수신자
+	private String msgContent; // 내용
+	private Date sendDate; // 발신일
+	private boolean readYN; // 확인여부
 
 	// 생성자
-	public Message() {}
+	public Message() {
+	}
 
 	// getter & setter
-	public String getMsgNo() {
+	public int getMsgNo() {
 		return msgNo;
 	}
 
-	public void setMsgNo(String msgNo) {
+	public void setMsgNo(int msgNo) {
 		this.msgNo = msgNo;
 	}
 
@@ -68,7 +69,5 @@ public class Message {
 		return String.format("Message [msgNo=%s, sendUser=%s, receiveUser=%s, msgContent=%s, sendDate=%s, readYN=%s]",
 				msgNo, sendUser, receiveUser, msgContent, sendDate, readYN);
 	}
-
-	
 
 }

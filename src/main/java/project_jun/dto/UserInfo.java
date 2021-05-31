@@ -2,32 +2,46 @@ package project_jun.dto;
 
 //회원정보
 public class UserInfo {
-	private String userNo;		 //회원번호
-	private String userId;		 //회원계정
-	private String userPw;		 //비밀번호
-	private String userName;	 //회원성명
-	private String address;		 //주소
-	private String detailAddress;//상세주소
-	private String userPhone;	 //회원H.P
-	private String email;		 //이메일
-	private int bankAccount;	 //계좌번호
-	private String bankName;	 //은행명
+	private int userNo; // 회원번호
+	private String userId; // 회원계정
+	private String userPw; // 비밀번호
+	private String userName; // 회원성명
+	private String address; // 주소
+	private String detailAddress;// 상세주소
+	private String userPhone; // 회원H.P
+	private String email; // 이메일
+	private int bankAccount; // 계좌번호
+	private String bankName; // 은행명
 
 	// 생성자
 	public UserInfo() {
 	}
 
 	// 회원번호
-	public UserInfo(String userNo) {
+	public UserInfo(int userNo) {
 		this.userNo = userNo;
+	}
+	
+	//회원가입
+	public UserInfo(String userId, String userPw, String userName, String address, String detailAddress,
+			String userPhone, String email, int bankAccount, String bankName) {
+		this.userId = userId;
+		this.userPw = userPw;
+		this.userName = userName;
+		this.address = address;
+		this.detailAddress = detailAddress;
+		this.userPhone = userPhone;
+		this.email = email;
+		this.bankAccount = bankAccount;
+		this.bankName = bankName;
 	}
 
 	// getter & setter
-	public String getUserNo() {
+	public int getUserNo() {
 		return userNo;
 	}
 
-	public void setUserNo(String userNo) {
+	public void setUserNo(int userNo) {
 		this.userNo = userNo;
 	}
 
@@ -110,5 +124,4 @@ public class UserInfo {
 				userNo, userId, userPw, userName, address, detailAddress, userPhone, email, bankAccount, bankName);
 	}
 
-	
 }

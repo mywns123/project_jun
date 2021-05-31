@@ -58,7 +58,9 @@
 						<td class="td_left"><label for="bankName">은행명</label></td>
 						<td class="td_right"><input type="text" name="bankName" id="bankName" /></td>
 					</tr>			
-				</table>			
+				</table>
+				<P><a href="#" id="Terms">이용약관보기</a></P>
+				<label><input type="checkbox" name="agree" value="true">동의하기</label>			
 				<input type="submit" value="가입하기" id="submit">			
 				</fieldset>
 			</form>

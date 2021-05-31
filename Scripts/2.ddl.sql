@@ -61,7 +61,7 @@ CREATE TABLE proj21_funding.UserInfo (
 	DetailAddress VARCHAR(50)  NULL     COMMENT '상세주소', -- 상세주소
 	UserPhone     VARCHAR(20)  NULL     COMMENT '회원H.P', -- 회원H.P
 	Email         VARCHAR(100) NULL     COMMENT '이메일', -- 이메일
-	BankAcoount   INT(20)      NULL     COMMENT '계좌번호', -- 계좌번호
+	BankAccount   INT(20)      NULL     COMMENT '계좌번호', -- 계좌번호
 	BankName      VARCHAR(10)  NULL     COMMENT '은행명' -- 은행명
 )
 COMMENT '회원정보';

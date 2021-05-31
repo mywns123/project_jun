@@ -33,10 +33,7 @@ public class MainController {
 		return "login/login";
 	}
 	
-	@RequestMapping("/login/signUp")
-	public String signUp() {
-		return "login/signUp";
-	}
+	
 	
 	
 }

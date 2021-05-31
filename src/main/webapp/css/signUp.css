@@ -21,6 +21,9 @@ table{ height: 90%;}
 
 .td_left{text-align: center;}
 
+#Terms{
+	display: inline-block;
+}
 #submit{
 	width: 100%;
 	background-color: red;}

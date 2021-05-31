@@ -23,7 +23,7 @@ from userinfo;
 
 where UserNo =?;
 where UserId =?;
-where UserName =?;
+where Email =?;
 
 insert into userinfo values(
 00001, 'test', '0000', '김상건', '대구', '달서구',
